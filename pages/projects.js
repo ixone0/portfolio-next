@@ -12,9 +12,16 @@ export default function Projects() {
     {
       title: "User Management System",
       description: "Full-Stack user management system with React, Node.js, and Docker.",
-      github: "https://github.com/yourusername/user-management",
+      github: "https://github.com/ixone0/user-management-with-docker",
       image: "/images/user-management.png",
     },
+    {
+      title: "Portfolio",
+      description: "My Portfolio with next.js, tailwindcss and deploy on vercel",
+      github: "https://github.com/ixone0/portfolio-next",
+      image: "/images/portfolio.png",
+    },
+    
   ];
 
   const gameProjects = [
