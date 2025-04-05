@@ -9,13 +9,13 @@ const ProjectCard = ({ title, description, github, itch, image }) => {
       <h2 className="text-xl font-bold mt-2">{title}</h2>
       <p className="text-gray-600 mt-1">{description}</p>
       {github && (
-        <a href={github} target="_blank" className="text-blue-500 mt-2 inline-block">
+        <a href={github} target="_blank" className="text-black-500 mt-2 inline-block hover:underline" >
           View on GitHub
         </a>
       )}
       <div>
         {itch && (
-          <a href={itch} target="_blank" className="text-blue-500 mt-2 inline-block">
+          <a href={itch} target="_blank" className="text-black-500 mt-2 inline-block hover:underline">
             Donwload in Itch.io
           </a>
         )}
