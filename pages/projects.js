@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 export default function Projects() {
   const fullStackProjects = [
-    {
+    { //res
       title: "Restaurant Management System",
       description: "Full-Stack restaurant management system with Next.js, PostgreSQL, and WebSocket. role-based access control (RBAC), employee management, and real-time updates for kitchen and cashier systems",
       github: "https://github.com/ixone0/restaurant_management",
